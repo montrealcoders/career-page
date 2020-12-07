@@ -1,4 +1,4 @@
-# Página de Carreiras 👋
+# Página de Carreiras 👨🏽‍💻
 Página de carreiras do Grupo Montreal.
 
 ![Carreiras](/images/CARREIRAS%20I.jpg)
