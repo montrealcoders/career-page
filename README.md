@@ -13,7 +13,7 @@ Apoiamos o desenvolvimento de talentos e trabalhamos para proporcionar oportunid
 # **Engajamento que fortalece**
 Trabalhamos e zelamos pela boa comunicação entre os nossos colaboradores, setores, unidades e clientes. É muito importante para nós, um engajamento com os objetivos estratégicos da organização, além de um ambiente de trabalho saudável e motivador.
 
-# **VemSerMontreal**
+# **Vem Ser Montreal**
 Venha fazer parte do Grupo Montreal! Buscamos por pessoas que se identificam com nosso propósito e perfil inovador, sempre alinhados com o objetivo de entregar resultados efetivos.
 Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresas de tecnologia do Brasil!
 
