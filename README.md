@@ -1,7 +1,7 @@
 # Página de Carreiras 👋
 Página de carreiras do Grupo Montreal.
 
-#**Conectando Pessoas**
+# **Conectando Pessoas**
 Entendemos que investir em gestão de pessoas garante a geração de valor e o desenvolvimento humano. Atualmente, contamos com um time de aproximadamente 3 mil empregados, alinhados e comprometidos com os valores e política da empresa.
 
 # **Desenvolvendo Talentos**
