@@ -17,3 +17,9 @@ Trabalhamos e zelamos pela boa comunicação entre os nossos colaboradores, seto
 Venha fazer parte do Grupo Montreal! Buscamos por pessoas que se identificam com nosso propósito e perfil inovador, sempre alinhados com o objetivo de entregar resultados efetivos.
 Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresas de tecnologia do Brasil!
 
+# **NOSSAS OPORTUNIDADES:**
+
+**[Analista/Assistente de Testes](https://curriculo.montreal.com.br/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=185&codVaga=1)** Salvador / BA
+
+**[Analista de Qualidade – 3 posições ](https://curriculo.montreal.com.br/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=160&codVaga=1)** Belo Horizonte / MG
+
