@@ -23,3 +23,5 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 **[Analista de Qualidade – 3 posições ](https://curriculo.montreal.com.br/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=160&codVaga=1)** Belo Horizonte / MG
 
+**[Desenvolvedor Xamarin – 3 posições ](https://www.linkedin.com/jobs/view/2321003095/?refId=6495724501607533556768&trackingId=s6moicHhZyHSadyzbFXMvQ%3D%3D)** Belo Horizonte / MG
+
