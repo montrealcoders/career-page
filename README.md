@@ -19,7 +19,7 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 # **Nossas Oportunidades:**
 
-**[Analista/Assistente de Testes](https://curriculo.montreal.com.br/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=185&codVaga=1)** Salvador / BA
+**[Analista User Experience (UX) - 1 posição](https://curriculo.montreal.com.br/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=236&codVaga=1)** Belo Horizonte / BH
 
 **[Analista de Qualidade – 3 posições ](https://curriculo.montreal.com.br/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=160&codVaga=1)** Belo Horizonte / MG
 
