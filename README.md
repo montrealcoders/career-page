@@ -3,6 +3,9 @@ Página de carreiras do Grupo Montreal.
 
 ![Carreiras](/images/CARREIRAS%20I.jpg)
 
+# **Somos GPTW**
+Empresas são feitas de pessoas e para pessoas, e a Certificação Great Place To Work, é um símbolo da construção contínua de um ambiente de colaboração e respeito. Quer saber porque somos uma das melhores empresas para se trabalhar?
+
 # **Conectamos Pessoas**
 Entendemos que investir em gestão de pessoas garante a geração de valor e o desenvolvimento humano. Atualmente, contamos com um time de aproximadamente 3 mil empregados, alinhados e comprometidos com os valores e política da empresa.
 
