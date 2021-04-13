@@ -32,5 +32,4 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 **[Desenvolvedor Mobile Android – 2 posições ](https://www.linkedin.com/jobs/view/2322719685/?alternateChannel=search&refId=%2BRrVfE2%2FIUNtf%2F9nlx88nQ%3D%3D&trackingId=cfHzqu2jI57t1mMFu9tahA%3D%3D)** Belo Horizonte / MG
 
-**[Desenvolvedor Java – 10 posições ](https://www.linkedin.com/jobs/view/2335038834/?alternateChannel=search&refId=%2BRrVfE2%2FIUNtf%2F9nlx88nQ%3D%3D&trackingId=WWiwNTe0Xiq%2BBkKrYMnHAQ%3D%3D)** Belo Horizonte / MG
 
