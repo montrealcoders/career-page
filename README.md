@@ -28,6 +28,4 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 **[Desenvolvedor Xamarin – 3 posições ](https://www.linkedin.com/jobs/view/2321003095/?refId=6495724501607533556768&trackingId=s6moicHhZyHSadyzbFXMvQ%3D%3D)** Belo Horizonte / MG
 
-**[Desenvolvedor .NET – 2 posições ](https://www.linkedin.com/jobs/view/2315767676/?alternateChannel=search&refId=%2BRrVfE2%2FIUNtf%2F9nlx88nQ%3D%3D&trackingId=kQo%2FBcojSoOl%2FLnvh5lp5Q%3D%3D)** São Paulo / SP
-
-**[Desenvolvedor Mobile Android – 2 posições ](https://www.linkedin.com/jobs/view/2322719685/?alternateChannel=search&refId=%2BRrVfE2%2FIUNtf%2F9nlx88nQ%3D%3D&trackingId=cfHzqu2jI57t1mMFu9tahA%3D%3D)** Belo Horizonte / MG
+**[Desenvolvedor Java – 3 posições ](https://www.linkedin.com/jobs/view/2321003095/?refId=6495724501607533556768&trackingId=s6moicHhZyHSadyzbFXMvQ%3D%3D)** Belo Horizonte / MG
