@@ -22,10 +22,8 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 # **Nossas Oportunidades:**
 
-**[Desenvolvedor FullStack Java Angular - 16 posições](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=320&codVaga=1)** Rio de Janeiro / RJ (REMOTO)
+**[Desenvolvedor FullStack Java Angular - 8 posições](https://www.linkedin.com/jobs/view/2649356772/?refId=QHFoJqg3rORC5y6PDrDjtA%3D%3D&trackingId=MPTL5gfg9uLOdMHjcyEN8w%3D%3D)** Rio de Janeiro / RJ (REMOTO)
 
-**[Desenvolvedor FullStack PHP Javascript – 2 posições ](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=321&codVaga=1)** Rio de Janeiro / RJ (REMOTO)
-
-**[Desenvolvedor Xamarin – 3 posições ](https://www.linkedin.com/jobs/view/2321003095/?refId=6495724501607533556768&trackingId=s6moicHhZyHSadyzbFXMvQ%3D%3D)** Belo Horizonte / MG
+**[Analista de Qualidade de software – 1 posição ](https://www.linkedin.com/jobs/view/2648310833/?refId=QHFoJqg3rORC5y6PDrDjtA%3D%3D&trackingId=Lh3H4bsqTX7b9DknTYqmPg%3D%3D)** Brasília / DF (PRESENCIAL)
 
 **[Desenvolvedor Java – 3 posições ](https://www.linkedin.com/jobs/view/2321003095/?refId=6495724501607533556768&trackingId=s6moicHhZyHSadyzbFXMvQ%3D%3D)** Belo Horizonte / MG
