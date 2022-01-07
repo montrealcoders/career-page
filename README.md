@@ -22,8 +22,8 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 # **Nossas Oportunidades:**
 
-**[Desenvolvedor FullStack Java Angular - 8 posições](https://www.linkedin.com/jobs/view/2649356772/?refId=QHFoJqg3rORC5y6PDrDjtA%3D%3D&trackingId=MPTL5gfg9uLOdMHjcyEN8w%3D%3D)** Rio de Janeiro / RJ (REMOTO)
+**[Desenvolvedor FullStack Java - 4 posições](https://www.linkedin.com/jobs/search/?currentJobId=2869595803&keywords=montreal%20oficial)** Rio de Janeiro / RJ (REMOTO)
 
-**[Analista de Qualidade de software – 1 posição ](https://www.linkedin.com/jobs/view/2648310833/?refId=QHFoJqg3rORC5y6PDrDjtA%3D%3D&trackingId=Lh3H4bsqTX7b9DknTYqmPg%3D%3D)** Brasília / DF (PRESENCIAL)
+**[Desenvolvedor Java – 1 posição ](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=montreal%20oficial)** Salvador / BA (PRESENCIAL)
 
-**[Desenvolvedor Java – 3 posições ](https://www.linkedin.com/jobs/view/2321003095/?refId=6495724501607533556768&trackingId=s6moicHhZyHSadyzbFXMvQ%3D%3D)** Belo Horizonte / MG
+**[Analista de Sistemas – 2 posições ](https://www.linkedin.com/jobs/search/?currentJobId=2865602115&f_TPR=r604800&keywords=montreal%20oficial)** Maranhão / MA (PRESENCIAL)
