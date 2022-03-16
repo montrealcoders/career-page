@@ -31,3 +31,5 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 **[Desenvolvedor Java Pleno- 10 posições](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/lista)** Rio de janeri  / RJ (REMOTO)
 
 **[Desenvolvedor Java Sênior - 5 posições](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/lista)** Rio de Janeiro / RJ  ( REMOTO)
+
+**[Arquitet  de  Software - 6 posições](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/lista)** Rio de Janeiro/ RJ (REMOTO)
