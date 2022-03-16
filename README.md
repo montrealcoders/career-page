@@ -29,3 +29,4 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 **[Analista de Sistemas – 2 posições ](https://www.linkedin.com/jobs/search/?currentJobId=2865602115&f_TPR=r604800&keywords=montreal%20oficial)** Maranhão / MA (PRESENCIAL)
 
 **[Desenvolvedor Java Pleno- 10 posições](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/lista)** Rio de janeri (REMOTO
+
