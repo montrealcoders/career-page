@@ -37,3 +37,5 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 **[WebDesigner - 4 posições](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/lista)** Rio de Janeiro/ RJ (REMOTO)
 
 **[Analista de Testes - 5 posições ](urriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=427&codVaga=1)** Rio de Janeiro/ RJ (REMOTO)
+
+**[Desenvolvedor PHP - 2 posições ](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=443&codVaga=1)** Belém/ PA (PRESENCIAL)
