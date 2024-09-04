@@ -22,12 +22,5 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 
 # **Nossas Oportunidades:**
 
-**[Desenvolvedor Java – 1 posição ](https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords=montreal%20oficial)** Salvador / BA (PRESENCIAL)
+Para verificar as nossas oportunidades, por favor verifique o **[Gupy Montreal](https://montreal.gupy.io/)**
 
-**[Analista de Sistemas – 2 posições ](https://www.linkedin.com/jobs/search/?currentJobId=2865602115&f_TPR=r604800&keywords=montreal%20oficial)** Maranhão / MA (PRESENCIAL)
-
-**[Desenvolvedor C# Pleno/Sênior - 1 posição ](https://www.linkedin.com/jobs/view/3193647641/?alternateChannel=search&refId=gqwgVmubMoo3rjtsCK59bA%3D%3D&trackingId=8wBarnyI2i1MRID4U9WbEg%3D%3D)** Rio de Janeiro/ RJ (PRESENCIAL)
-
-**[Desenvolvedor .NET - 1 posição ](https://www.linkedin.com/jobs/view/3193655091/?alternateChannel=search&refId=gqwgVmubMoo3rjtsCK59bA%3D%3D&trackingId=bMWD6QQxOO%2BNH93P1W9XqQ%3D%3D)** Rio de Janeiro/ RJ (PRESENCIAL)
-
-**[Desenvolvedor PHP - 2 posições ](https://curriculo.montreal.com.br/FrameHtml/RM/Rhu-BancoTalentos/#/RM/Rhu-BancoTalentos/painelVagas/detalhesVaga/questionarios?codColigada=1&codSelecao=443&codVaga=1)** Belém/ PA (PRESENCIAL)
