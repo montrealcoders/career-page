@@ -23,5 +23,3 @@ Inscreva-se em nosso banco de talentos e faça parte de uma das melhores empresa
 # **Nossas Oportunidades:**
 
 Para verificar nossas oportunidades, por favor, acesse o **[Gupy Montreal](https://montreal.gupy.io/)**
-
-
