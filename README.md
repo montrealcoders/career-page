@@ -48,7 +48,7 @@ Nosso processo é **simples, ágil e respeitoso** do seu tempo.
 
 ## 🛠️ Tecnologias com que trabalhamos
 
-`Java`.NET` `Python` `Node.js` `React` `TypeScript` `Angular` `Docker` `Kubernetes` `AWS` `Azure` `PostgreSQL` `MongoDB` `Kafka` `Microsserviços` `DevOps` `CI/CD` `Agile`
+`Java`  `.NET` `Python` `Node.js` `React` `TypeScript` `Angular` `Docker` `Kubernetes` `AWS` `Azure` `PostgreSQL` `MongoDB` `Kafka` `Microsserviços` `DevOps` `CI/CD` `Agile`
 
 ---
 
