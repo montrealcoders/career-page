@@ -3,7 +3,7 @@
 > **Construa algo maior que você mesmo.**
 > Junte-se a um dos maiores grupos de tecnologia do Brasil e trabalhe em projetos que fazem a diferença.
 
-🌐 **[Ver página de carreiras](./index.html)** &nbsp;|&nbsp; 🚀 **[Vagas abertas na Gupy](https://montreal.gupy.io/)**
+🚀 **[Vagas abertas na Gupy](https://montreal.gupy.io/)**
 
 ---
 
