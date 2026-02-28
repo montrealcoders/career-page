@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carreiras | Grupo Montreal</title>
+  <meta name="description" content="Construa sua carreira no Grupo Montreal — uma das maiores empresas de tecnologia do Brasil. Veja nossas vagas e venha fazer parte do nosso time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue-900: #0a1628;
+      --blue-800: #0f2044;
+      --blue-700: #1a3a6e;
+      --blue-600: #1e4d9b;
+      --blue-500: #2563eb;
+      --blue-400: #3b82f6;
+      --blue-100: #dbeafe;
+      --blue-50:  #eff6ff;
+      --orange:   #f97316;
+      --orange-light: #fed7aa;
+      --white:    #ffffff;
+      --gray-50:  #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-500: #6b7280;
+      --gray-700: #374151;
+      --gray-900: #111827;
+      --radius:   12px;
+      --shadow:   0 4px 24px rgba(0,0,0,.10);
+      --shadow-lg:0 12px 48px rgba(0,0,0,.15);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--gray-900);
+      background: var(--white);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(10,22,40,.96);
+      backdrop-filter: blur(10px);
+      padding: 0 5%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    .nav-logo {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -.5px;
+    }
+
+    .nav-logo span { color: var(--blue-400); }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: rgba(255,255,255,.75);
+      text-decoration: none;
+      font-size: .9rem;
+      font-weight: 500;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover { color: var(--white); }
+
+    .nav-cta {
+      background: var(--blue-500);
+      color: var(--white) !important;
+      padding: .45rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 600 !important;
+      transition: background .2s !important;
+    }
+
+    .nav-cta:hover { background: var(--blue-400) !important; color: var(--white) !important; }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--blue-900) 0%, var(--blue-800) 50%, #0d1f3e 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 5% 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232563eb' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: rgba(37,99,235,.2);
+      border: 1px solid rgba(37,99,235,.4);
+      color: var(--blue-400);
+      padding: .4rem 1rem;
+      border-radius: 100px;
+      font-size: .85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      letter-spacing: .02em;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      max-width: 800px;
+      margin-bottom: 1.25rem;
+      letter-spacing: -.02em;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--blue-400);
+    }
+
+    .hero p {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: rgba(255,255,255,.7);
+      max-width: 580px;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: var(--blue-500);
+      color: var(--white);
+      padding: .85rem 2rem;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background .2s, transform .15s, box-shadow .2s;
+      box-shadow: 0 4px 20px rgba(37,99,235,.4);
+    }
+
+    .btn-primary:hover {
+      background: var(--blue-400);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(37,99,235,.5);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: rgba(255,255,255,.1);
+      color: var(--white);
+      padding: .85rem 2rem;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,.2);
+      transition: background .2s, transform .15s;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,.18);
+      transform: translateY(-2px);
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 3rem;
+      margin-top: 4rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: .85rem;
+      color: rgba(255,255,255,.55);
+      margin-top: .25rem;
+      font-weight: 500;
+    }
+
+    .stat-divider {
+      width: 1px;
+      background: rgba(255,255,255,.12);
+      align-self: stretch;
+    }
+
+    /* ── SECTIONS ── */
+    section { padding: 80px 5%; }
+
+    .section-label {
+      display: inline-block;
+      color: var(--blue-500);
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: .75rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 800;
+      color: var(--gray-900);
+      line-height: 1.2;
+      letter-spacing: -.02em;
+      margin-bottom: 1rem;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--gray-500);
+      max-width: 560px;
+    }
+
+    .section-header { margin-bottom: 3rem; }
+    .section-header.centered { text-align: center; }
+    .section-header.centered .section-subtitle { margin: 0 auto; }
+
+    /* ── ABOUT ── */
+    .about { background: var(--gray-50); }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .about-image {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      aspect-ratio: 4/3;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about-content .section-subtitle { max-width: 100%; margin-bottom: 2rem; }
+
+    .about-highlight {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .about-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: var(--blue-50);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .about-highlight h4 { font-size: .95rem; font-weight: 700; margin-bottom: .2rem; }
+    .about-highlight p  { font-size: .88rem; color: var(--gray-500); }
+
+    /* ── WHY MONTREAL ── */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .benefit-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+      border-color: var(--blue-100);
+    }
+
+    .benefit-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .benefit-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; }
+    .benefit-card p  { font-size: .88rem; color: var(--gray-500); line-height: 1.6; }
+
+    /* ── GPTW ── */
+    .gptw {
+      background: linear-gradient(135deg, var(--blue-700), var(--blue-900));
+      color: var(--white);
+    }
+
+    .gptw .section-title { color: var(--white); }
+    .gptw .section-subtitle { color: rgba(255,255,255,.7); }
+    .gptw .section-label { color: var(--blue-400); }
+
+    .gptw-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .gptw-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 100px;
+      padding: .75rem 2rem;
+      margin-top: 2rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    .gptw-badge-icon { font-size: 1.5rem; }
+
+    .gptw-metrics {
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      margin-top: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .gptw-metric { text-align: center; }
+    .gptw-metric-num  { font-size: 2.5rem; font-weight: 800; color: var(--blue-400); }
+    .gptw-metric-text { font-size: .85rem; color: rgba(255,255,255,.6); margin-top: .25rem; }
+
+    /* ── JOURNEY ── */
+    .journey { background: var(--gray-50); }
+
+    .journey-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0;
+      max-width: 1000px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .journey-steps::before {
+      content: '';
+      position: absolute;
+      top: 32px;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(90deg, var(--blue-500), var(--blue-400));
+      z-index: 0;
+    }
+
+    .journey-step {
+      text-align: center;
+      padding: 0 1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .journey-num {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--blue-500);
+      color: var(--white);
+      font-size: 1.25rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.25rem;
+      box-shadow: 0 0 0 6px var(--gray-50), 0 0 0 8px var(--blue-100);
+    }
+
+    .journey-step h4 { font-size: .95rem; font-weight: 700; margin-bottom: .4rem; }
+    .journey-step p  { font-size: .83rem; color: var(--gray-500); }
+
+    /* ── TECH ── */
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      justify-content: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .tech-tag {
+      background: var(--gray-100);
+      color: var(--gray-700);
+      padding: .45rem 1rem;
+      border-radius: 100px;
+      font-size: .88rem;
+      font-weight: 600;
+      border: 1px solid var(--gray-200);
+      transition: background .2s, color .2s;
+    }
+
+    .tech-tag:hover {
+      background: var(--blue-500);
+      color: var(--white);
+      border-color: var(--blue-500);
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials { background: var(--gray-50); }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .testimonial-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+    }
+
+    .testimonial-quote {
+      font-size: .95rem;
+      color: var(--gray-700);
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+
+    .testimonial-avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--blue-500);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: 700;
+      font-size: .9rem;
+      flex-shrink: 0;
+    }
+
+    .testimonial-name  { font-weight: 700; font-size: .9rem; }
+    .testimonial-role  { font-size: .8rem; color: var(--gray-500); }
+
+    /* ── FAQ ── */
+    .faq-list {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--gray-200);
+      padding: 1.25rem 0;
+    }
+
+    .faq-item:first-child { border-top: 1px solid var(--gray-200); }
+
+    .faq-question {
+      font-weight: 700;
+      font-size: .98rem;
+      margin-bottom: .5rem;
+      color: var(--gray-900);
+    }
+
+    .faq-answer {
+      font-size: .9rem;
+      color: var(--gray-500);
+      line-height: 1.65;
+    }
+
+    /* ── CTA ── */
+    .cta-section {
+      background: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-900) 100%);
+      text-align: center;
+      padding: 100px 5%;
+    }
+
+    .cta-section h2 {
+      font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 1rem;
+      letter-spacing: -.02em;
+    }
+
+    .cta-section p {
+      color: rgba(255,255,255,.7);
+      font-size: 1.1rem;
+      max-width: 500px;
+      margin: 0 auto 2.5rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--blue-900);
+      color: rgba(255,255,255,.5);
+      text-align: center;
+      padding: 2rem 5%;
+      font-size: .85rem;
+    }
+
+    footer a { color: var(--blue-400); text-decoration: none; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav { padding: 0 1.25rem; }
+      .nav-links { display: none; }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .about-image { order: -1; }
+
+      .hero-stats { gap: 1.5rem; }
+      .stat-divider { display: none; }
+
+      .journey-steps::before { display: none; }
+      .journey-steps { grid-template-columns: 1fr 1fr; row-gap: 2rem; }
+
+      .gptw-metrics { gap: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Grupo <span>Montreal</span></div>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#beneficios">Por que Montreal</a></li>
+    <li><a href="#jornada">Jornada</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="https://montreal.gupy.io/" target="_blank" class="nav-cta">Ver vagas</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">
+    🏆 &nbsp;Great Place To Work Certificado
+  </div>
+
+  <h1>Construa algo <em>maior</em> que<br/>você mesmo</h1>
+
+  <p>No Grupo Montreal, você cresce junto com tecnologias que transformam o Brasil. Junte-se a um time de ~3.000 pessoas apaixonadas por impacto real.</p>
+
+  <div class="hero-actions">
+    <a href="https://montreal.gupy.io/" target="_blank" class="btn-primary">
+      🚀 &nbsp;Ver oportunidades
+    </a>
+    <a href="#sobre" class="btn-secondary">
+      Conhecer a empresa &nbsp;↓
+    </a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-number">~3.000</div>
+      <div class="stat-label">Empregados</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <div class="stat-number">GPTW</div>
+      <div class="stat-label">Certificação</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <div class="stat-number">+25 anos</div>
+      <div class="stat-label">de atuação</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <div class="stat-number">Brasil</div>
+      <div class="stat-label">Cobertura nacional</div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="about">
+  <div class="about-grid">
+    <div class="about-image">
+      <img src="images/CARREIRAS%20I.jpg" alt="Equipe Grupo Montreal" loading="lazy" />
+    </div>
+    <div class="about-content">
+      <span class="section-label">Sobre nós</span>
+      <h2 class="section-title">Tecnologia, pessoas<br/>e propósito</h2>
+      <p class="section-subtitle">O Grupo Montreal atua com foco em tecnologia e inovação, promovendo um ambiente colaborativo, ético e orientado a resultados em todo o Brasil.</p>
+
+      <div class="about-highlight">
+        <div class="about-icon">🎯</div>
+        <div>
+          <h4>Missão orientada a impacto</h4>
+          <p>Projetos que movem infraestrutura e serviços críticos para o País.</p>
+        </div>
+      </div>
+      <div class="about-highlight">
+        <div class="about-icon">🤝</div>
+        <div>
+          <h4>Cultura de colaboração</h4>
+          <p>Times multidisciplinares que crescem juntos, com comunicação transparente em todos os níveis.</p>
+        </div>
+      </div>
+      <div class="about-highlight">
+        <div class="about-icon">📈</div>
+        <div>
+          <h4>Crescimento real</h4>
+          <p>Plano de carreira estruturado, treinamentos contínuos e oportunidades internas de evolução.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section id="beneficios">
+  <div class="section-header centered">
+    <span class="section-label">Por que trabalhar aqui</span>
+    <h2 class="section-title">O que a Montreal oferece</h2>
+    <p class="section-subtitle">Muito além do salário: um ambiente onde você pode ser e crescer.</p>
+  </div>
+
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <span class="benefit-icon">🚀</span>
+      <h3>Projetos desafiadores</h3>
+      <p>Trabalhe em soluções tecnológicas de grande escala com impacto direto na sociedade brasileira.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">📚</span>
+      <h3>Desenvolvimento contínuo</h3>
+      <p>Treinamentos, acesso a tecnologias emergentes e programas de capacitação desde o primeiro dia.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">🏆</span>
+      <h3>Great Place To Work</h3>
+      <p>Somos certificados GPTW — reconhecimento das nossas práticas de gestão e qualidade de vida no trabalho.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">🤝</span>
+      <h3>Ambiente inclusivo</h3>
+      <p>Cultura respeitosa, colaborativa e orientada a pessoas. Aqui sua voz importa.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">📍</span>
+      <h3>Atuação nacional</h3>
+      <p>Vagas em diversas localidades do Brasil, com oportunidades para diferentes perfis e especialidades.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">💡</span>
+      <h3>Inovação no DNA</h3>
+      <p>Tecnologia e inovação no centro de tudo que fazemos — com espaço para novas ideias sempre.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">📈</span>
+      <h3>Crescimento de carreira</h3>
+      <p>Plano de carreira transparente, com movimentações internas e promoções baseadas em mérito.</p>
+    </div>
+    <div class="benefit-card">
+      <span class="benefit-icon">🌐</span>
+      <h3>Banco de talentos</h3>
+      <p>Não encontrou a vaga certa agora? Cadastre seu currículo e seja considerado para futuras oportunidades.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GPTW -->
+<section class="gptw">
+  <div class="gptw-inner">
+    <span class="section-label">Reconhecimento</span>
+    <h2 class="section-title">Great Place To Work</h2>
+    <p class="section-subtitle">A certificação GPTW valida nosso compromisso com um ambiente de trabalho saudável, justo e motivador. Não é só um selo — é a voz dos nossos colaboradores.</p>
+
+    <div class="gptw-badge">
+      <span class="gptw-badge-icon">🏆</span>
+      Certificado Great Place To Work
+    </div>
+
+    <div class="gptw-metrics">
+      <div class="gptw-metric">
+        <div class="gptw-metric-num">~3k</div>
+        <div class="gptw-metric-text">Colaboradores</div>
+      </div>
+      <div class="gptw-metric">
+        <div class="gptw-metric-num">100%</div>
+        <div class="gptw-metric-text">Brasil</div>
+      </div>
+      <div class="gptw-metric">
+        <div class="gptw-metric-num">+25</div>
+        <div class="gptw-metric-text">Anos de mercado</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JORNADA DO CANDIDATO -->
+<section id="jornada" class="journey">
+  <div class="section-header centered">
+    <span class="section-label">Processo seletivo</span>
+    <h2 class="section-title">Sua jornada até a Montreal</h2>
+    <p class="section-subtitle">Um processo simples, transparente e respeitoso do seu tempo.</p>
+  </div>
+
+  <div class="journey-steps">
+    <div class="journey-step">
+      <div class="journey-num">1</div>
+      <h4>Cadastro</h4>
+      <p>Acesse a Gupy e se inscreva na vaga ou banco de talentos.</p>
+    </div>
+    <div class="journey-step">
+      <div class="journey-num">2</div>
+      <h4>Triagem</h4>
+      <p>Nossa equipe analisa seu perfil com atenção e cuidado.</p>
+    </div>
+    <div class="journey-step">
+      <div class="journey-num">3</div>
+      <h4>Entrevistas</h4>
+      <p>Bate-papos com RH e líderes técnicos da área.</p>
+    </div>
+    <div class="journey-step">
+      <div class="journey-num">4</div>
+      <h4>Proposta</h4>
+      <p>Oferta transparente e alinhada ao seu perfil e expectativas.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section id="tech">
+  <div class="section-header centered">
+    <span class="section-label">Tecnologias</span>
+    <h2 class="section-title">Stack com que trabalhamos</h2>
+    <p class="section-subtitle">Trabalhamos com um ecossistema moderno e em constante evolução.</p>
+  </div>
+
+  <div class="tech-tags">
+    <span class="tech-tag">Java</span>
+    <span class="tech-tag">Python</span>
+    <span class="tech-tag">Node.js</span>
+    <span class="tech-tag">React</span>
+    <span class="tech-tag">TypeScript</span>
+    <span class="tech-tag">Angular</span>
+    <span class="tech-tag">Docker</span>
+    <span class="tech-tag">Kubernetes</span>
+    <span class="tech-tag">AWS</span>
+    <span class="tech-tag">Azure</span>
+    <span class="tech-tag">PostgreSQL</span>
+    <span class="tech-tag">MongoDB</span>
+    <span class="tech-tag">Kafka</span>
+    <span class="tech-tag">RabbitMQ</span>
+    <span class="tech-tag">CI/CD</span>
+    <span class="tech-tag">Microsserviços</span>
+    <span class="tech-tag">DevOps</span>
+    <span class="tech-tag">Agile / Scrum</span>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="testimonials">
+  <div class="section-header centered">
+    <span class="section-label">Nosso time fala</span>
+    <h2 class="section-title">Quem está aqui, conta</h2>
+    <p class="section-subtitle">Veja o que nossos colaboradores dizem sobre trabalhar na Montreal.</p>
+  </div>
+
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <p class="testimonial-quote">"Entrei como analista e hoje sou líder de equipe. A Montreal me deu espaço para crescer e aprender com projetos reais desde o começo."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">RL</div>
+        <div>
+          <div class="testimonial-name">Rafael Lima</div>
+          <div class="testimonial-role">Líder de Desenvolvimento</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">"O ambiente é realmente colaborativo. Você tem autonomia para propor soluções e a liderança está sempre aberta a novas ideias."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">CS</div>
+        <div>
+          <div class="testimonial-name">Camila Souza</div>
+          <div class="testimonial-role">Engenheira de Dados</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">"O que mais me surpreendeu foi a transparência no processo seletivo e o suporte que recebi logo nos primeiros dias. Me senti em casa rapidamente."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">PM</div>
+        <div>
+          <div class="testimonial-name">Pedro Martins</div>
+          <div class="testimonial-role">Arquiteto de Soluções</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-header centered">
+    <span class="section-label">Dúvidas frequentes</span>
+    <h2 class="section-title">FAQ</h2>
+  </div>
+
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-question">Não encontrei uma vaga agora. Posso me cadastrar mesmo assim?</div>
+      <div class="faq-answer">Sim! O banco de talentos da Montreal é uma excelente opção. Ao se cadastrar, seu perfil fica disponível para os recrutadores avaliarem quando surgirem novas oportunidades alinhadas à sua experiência.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">As vagas são para todo o Brasil?</div>
+      <div class="faq-answer">As oportunidades variam de acordo com a área, o projeto e a localidade. Confira a Gupy para ver as regiões disponíveis para cada vaga.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Existe possibilidade de trabalho remoto ou híbrido?</div>
+      <div class="faq-answer">Depende da área e do projeto. Algumas posições permitem trabalho remoto ou híbrido. As condições de cada vaga são descritas na Gupy durante o processo seletivo.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Como funciona o processo seletivo?</div>
+      <div class="faq-answer">Após a candidatura na Gupy, nossa equipe realiza a triagem de currículos. Os candidatos selecionados são contatados para entrevistas com RH e com as lideranças técnicas da área. Buscamos sempre manter o processo ágil e respeitoso.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Existem programas de estágio ou para recém-formados?</div>
+      <div class="faq-answer">Sim! A Montreal investe no desenvolvimento de talentos em início de carreira. Acompanhe as vagas na Gupy para conferir oportunidades de estágio e trainee.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-section">
+  <h2>Pronto para fazer parte do time?</h2>
+  <p>Explore as vagas abertas e candidate-se agora. Ou cadastre seu currículo no banco de talentos e fique na nossa lista.</p>
+  <a href="https://montreal.gupy.io/" target="_blank" rel="noopener noreferrer" class="btn-primary" style="font-size:1.05rem; padding:1rem 2.5rem;">
+    🚀 &nbsp;Ver oportunidades na Gupy
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Grupo Montreal. Todos os direitos reservados. &nbsp;|&nbsp; <a href="https://montreal.gupy.io/" target="_blank" rel="noopener noreferrer">Vagas na Gupy</a></p>
+</footer>
+
+</body>
+</html>
